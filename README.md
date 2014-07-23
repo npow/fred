@@ -6,16 +6,16 @@ Also using [afeld/jsonp](https://github.com/afeld/jsonp) to work around XHR issu
 
 ![FRED Logo](http://research.stlouisfed.org/images/fred-logo-2x.png)
 
-### Usage
-```
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-<script type="text/javascript" src="fred.js"></script>
-```
-
 ### API Key
 Fred and the FRED API require and API key. You can [request an api key from the official Federal Reserve web site](http://api.stlouisfed.org/api_key.html).
 
 ### Overview
+
+Include the JS files:
+```
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+<script type="text/javascript" src="fred.js"></script>
+```
 
 Create an instance of `fred` with your API key:
 ```javascript
