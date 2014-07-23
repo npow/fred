@@ -1,3 +1,5 @@
+(function ($) {
+
 var request = function(args, done) {
   $.ajax({
     type: 'GET',
@@ -116,3 +118,7 @@ Fred.prototype.series.observations = function(seriesId, done) {
     done(null, body)
   })
 }
+
+window.Fred = Fred; // export
+
+})(jQuery);
