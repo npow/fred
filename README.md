@@ -1,6 +1,8 @@
 #Fred
-Basically the same thing as https://github.com/reonomy/node-fred
-for browser usage (request Mikeal's request with jQuery)
+Basically the same thing as [reonomy/node-fred](https://github.com/reonomy/node-fred)
+for browser usage (replaced [mikeal/request](https://github.com/mikeal/request) with jQuery).
+
+Also using [afeld/jsonp](https://github.com/afeld/jsonp) to work around XHR issues.
 
 ![FRED Logo](http://research.stlouisfed.org/images/fred-logo-2x.png)
 
